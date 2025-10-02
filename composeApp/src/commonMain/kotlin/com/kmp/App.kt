@@ -80,26 +80,6 @@ fun App() {
 //}
 
 
-
-
-//fun todaysDate(): String {
-//    val now = Clock.System.now()
-//    val zone = TimeZone.currentSystemDefault()
-//   // val localDateTime = now.toLocalDateTime(zone)
-//    val localDate = now.toLocalDateTime(zone).date
-//
-//    // Criar formatter: DD-MM-YYYY
-//    val formatter = DateTimeComponents.Format {
-//        dayOfMonth()  // DD
-//        char('-')
-//        monthNumber() // MM
-//        char('-')
-//        year()        // YYYY
-//    }
-//
-//    return localDate.format(formatter)
-//}
-
 @OptIn(ExperimentalTime::class)
 fun todaysDate(): String {
     val now = Clock.System.now()
